@@ -1,46 +1,46 @@
 # Arduino_UNO_Experimental_Shield
 Experimental shield for Arduino UNO form factor boards.
 
-
-
 Welcome to the official repository of the **Experimental SHIELD**, an expansion board designed to provide a complete laboratory environment for experimenting, testing, and learning with the Arduino UNO Q.
 This shield integrates digital and analog I/O, SPI, I2C, sensors, memory, and diagnostics to create a versatile platform ideal for rapid prototyping, debugging, and education.
+
+<img width="1064" height="778" alt="image" src="https://github.com/user-attachments/assets/3ab0b595-d85c-4594-acd2-44767dbccad5" />
 
 ---
 
 ## 🚀 Key Features
 
 ### 🔹 Digital I/O
-- SMD LEDs on pins **D2–D9**
-- Push buttons on pins **D2–D9**
+- SMD LEDs on pins **D0–D7**
+- Push buttons on pins **D2–D5**
 - Individual jumpers to enable/disable LED and button per pin
 
 ### 🔹 Analog Inputs
-- **Two 10 kΩ trimmers** → A0, A1  
+- **Two 100 kΩ trimmers** → A0, A1  
 - **LM35 temperature sensor** → A2  
-  - RC filter + supply bypass for stable readings  
-- **Light sensor (LDR in voltage divider)** → A3
 
 ### 🔹 Serial Communication
-- **USB-to-Serial bridge** (CH340/CP2102 or equivalent)  
+- **USB-to-Serial bridge** (CH340)  
 - Jumpers to route TX/RX to UNO hardware serial pins
 
 ### 🔹 CAN Bus
-- **5V-compatible CAN transceiver** (e.g., MCP2562)  
+- **CAN transceiver** (TJA1051T3)  
 - **120 Ω termination resistor** enabled by jumper  
-- Screw terminal output: CANH / CANL / GND
+- Screw terminal output: CANH / CANL
+
+### 🔹 RS-485
+- **RS485 transceiver**
+- **120 Ω termination resistor** enabled by jumper  
+- Screw terminal output: A / B 
 
 ### 🔹 I2C Display
 - Integrated **SSD1306 OLED display**  
-- Additional I2C expansion header
 
 ### 🔹 PWM Audio
 - **Passive buzzer** driven via PWM  
-- NPN transistor (BC547 / 2N2222) driver  
-- Jumper to disconnect the buzzer when not needed
 
 ### 🔹 SPI Memory
-- **25LCxxx EEPROM** connected to hardware SPI  
+- **25LC256 EEPROM** connected to hardware SPI  
 - Dedicated Chip Select line
 
 ---
@@ -50,7 +50,8 @@ This shield integrates digital and analog I/O, SPI, I2C, sensors, memory, and di
 ### Digital I/O
 | UNO Pin | Shield Function |
 |------------|-----------------|
-| D2–D9 | LED + Button (isolatable via jumpers) |
+| D0–D7 | LED  |
+| D2–D5 | Buttons  |
 
 ### Analog
 | Pin | Function |
@@ -58,15 +59,15 @@ This shield integrates digital and analog I/O, SPI, I2C, sensors, memory, and di
 | A0 | Trimmer 1 |
 | A1 | Trimmer 2 |
 | A2 | LM35 |
-| A3 | LDR |
 
 ### Peripherals
 | Function | Pin |
 |----------|-----|
-| PWM Buzzer | D10 (configurable) |
+| PWM Buzzer | D3 |
 | SPI EEPROM | MOSI / MISO / SCK + CS |
 | I2C OLED | SDA / SCL |
 | CAN | CAN_TX / CAN_RX |
+| RS485 | TX / RX |
 
 ---
 
@@ -83,15 +84,6 @@ This shield is intended for:
 ## 📷 Logo
 
 The official project logo is available in the `/assets/logo/` directory.
-
----
-
-## 📦 Repository Structure
-
-- `/hardware/` – KiCad files, schematics, PCB layout  
-- `/firmware/` – Example sketches for testing each subsystem  
-- `/docs/` – Technical docs, notes, and datasheets  
-- `/assets/` – Logos, media, and images
 
 ---
 
