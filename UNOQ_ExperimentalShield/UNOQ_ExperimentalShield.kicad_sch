@@ -10757,7 +10757,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 48.895 128.2699 0)
 			(effects
 				(font
@@ -10792,7 +10792,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25104"
+		(property "LCSC" "C140196"
 			(at 46.99 127 0)
 			(effects
 				(font
@@ -10971,7 +10971,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 97.155 128.2699 0)
 			(effects
 				(font
@@ -11006,7 +11006,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25104"
+		(property "LCSC" "C140196"
 			(at 95.25 127 0)
 			(effects
 				(font
@@ -13346,7 +13346,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 81.915 128.2699 0)
 			(effects
 				(font
@@ -13381,7 +13381,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25104"
+		(property "LCSC" "C140196"
 			(at 80.01 127 0)
 			(effects
 				(font
@@ -13433,7 +13433,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 315.595 130.8099 0)
 			(effects
 				(font
@@ -13468,7 +13468,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25104"
+		(property "LCSC" "C140196"
 			(at 313.69 129.54 0)
 			(effects
 				(font
@@ -14445,7 +14445,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oled:MODULE_DM-OLED096-636"
+		(property "Footprint" "oled:OLED096"
 			(at 204.47 121.92 0)
 			(effects
 				(font
@@ -16273,7 +16273,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 65.405 128.2699 0)
 			(effects
 				(font
@@ -16308,7 +16308,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25104"
+		(property "LCSC" "C140196"
 			(at 63.5 127 0)
 			(effects
 				(font
@@ -16854,7 +16854,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 32.385 128.2699 0)
 			(effects
 				(font
@@ -16889,7 +16889,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25104"
+		(property "LCSC" "C140196"
 			(at 30.48 127 0)
 			(effects
 				(font
@@ -17220,7 +17220,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 113.665 128.2699 0)
 			(effects
 				(font
@@ -17255,7 +17255,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25104"
+		(property "LCSC" "C140196"
 			(at 111.76 127 0)
 			(effects
 				(font
@@ -18332,7 +18332,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "1k"
 			(at 294.005 130.8099 0)
 			(effects
 				(font
@@ -18367,7 +18367,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25104"
+		(property "LCSC" "C140196"
 			(at 292.1 129.54 0)
 			(effects
 				(font
