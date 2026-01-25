@@ -1,7 +1,7 @@
 # Arduino_UNO_Experimental_Shield
 Experimental shield for Arduino UNO form factor boards.
 
-Welcome to the official repository of the **Experimental SHIELD**, an expansion board designed to provide a complete laboratory environment for experimenting, testing, and learning with the Arduino UNO Q.
+Welcome to the official repository of the **Experimental SHIELD**, an expansion board designed to provide a complete laboratory environment for experimenting, testing, and learning with the Arduino UNO Boards (e.g **UNO Q**).
 This shield integrates digital and analog I/O, SPI, I2C, sensors, memory, and diagnostics to create a versatile platform ideal for rapid prototyping, debugging, and education.
 
 <img width="801" height="641" alt="image" src="https://github.com/user-attachments/assets/cd532058-da11-46a7-9276-57e8f626410f" />
