@@ -1,10 +1,10 @@
 # Arduino_UNO_Experimental_Shield
 Experimental shield for Arduino UNO form factor boards.
 
-Welcome to the official repository of the **Experimental SHIELD**, an expansion board designed to provide a complete laboratory environment for experimenting, testing, and learning with the Arduino UNO Q.
+Welcome to the official repository of the **Experimental SHIELD**, an expansion board designed to provide a complete laboratory environment for experimenting, testing, and learning with the Arduino UNO Boards (e.g **UNO Q**).
 This shield integrates digital and analog I/O, SPI, I2C, sensors, memory, and diagnostics to create a versatile platform ideal for rapid prototyping, debugging, and education.
 
-<img width="1064" height="778" alt="image" src="https://github.com/user-attachments/assets/3ab0b595-d85c-4594-acd2-44767dbccad5" />
+<img width="801" height="641" alt="image" src="https://github.com/user-attachments/assets/cd532058-da11-46a7-9276-57e8f626410f" />
 
 ---
 
@@ -13,11 +13,9 @@ This shield integrates digital and analog I/O, SPI, I2C, sensors, memory, and di
 ### 🔹 Digital I/O
 - SMD LEDs on pins **D0–D7**
 - Push buttons on pins **D2–D5**
-- Individual jumpers to enable/disable LED and button per pin
 
 ### 🔹 Analog Inputs
 - **Two 100 kΩ trimmers** → A0, A1  
-- **LM35 temperature sensor** → A2  
 
 ### 🔹 Serial Communication
 - **USB-to-Serial bridge** (CH340)  
@@ -34,7 +32,10 @@ This shield integrates digital and analog I/O, SPI, I2C, sensors, memory, and di
 - Screw terminal output: A / B 
 
 ### 🔹 I2C Display
-- Integrated **SSD1306 OLED display**  
+- Integrated **SSD1306 OLED display**
+
+### 🔹 I2C Thermometer
+- Integrated **TMP102 thermo**  
 
 ### 🔹 PWM Audio
 - **Passive buzzer** driven via PWM  
@@ -58,7 +59,6 @@ This shield integrates digital and analog I/O, SPI, I2C, sensors, memory, and di
 |-----|----------|
 | A0 | Trimmer 1 |
 | A1 | Trimmer 2 |
-| A2 | LM35 |
 
 ### Peripherals
 | Function | Pin |
@@ -66,15 +66,17 @@ This shield integrates digital and analog I/O, SPI, I2C, sensors, memory, and di
 | PWM Buzzer | D3 |
 | SPI EEPROM | MOSI / MISO / SCK + CS |
 | I2C OLED | SDA / SCL |
+| I2C Thermo | SDA / SCL |
 | CAN | CAN_TX / CAN_RX |
 | RS485 | TX / RX |
+| USB-Serial | TX / RX |
 
 ---
 
 ## 🛠️ Project Goals
 
 This shield is intended for:
-- Users who want a **complete test environment** for Arduino UNO Boards  
+- Users who want a **complete test environment** for Arduino UNO Boards (e.g. **UNO Q**, **UNO R4**) 
 - Makers performing **rapid firmware debugging**  
 - Schools, workshops, and educational labs  
 - Testing all core firmware interfaces (PWM, ADC, SPI, I2C, CAN, UART)
