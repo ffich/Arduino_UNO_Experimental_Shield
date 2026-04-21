@@ -1,25 +1,24 @@
 # Arduino_UNO_Experimental_Shield
 Experimental shield for Arduino UNO form factor boards.
 
-Welcome to the official repository of the **Experimental SHIELD**, an expansion board designed to provide a complete laboratory environment for experimenting, testing, and learning with the Arduino UNO Boards (e.g **UNO Q**).
+Welcome to the official repository of the **UNO Experimental SHIELD**, an expansion board designed to provide a complete laboratory environment for experimenting, testing, and learning with the Arduino UNO Boards (e.g **UNO Q**).
 This shield integrates digital and analog I/O, SPI, I2C, sensors, memory, and diagnostics to create a versatile platform ideal for rapid prototyping, debugging, and education.
 
-<img width="801" height="641" alt="image" src="https://github.com/user-attachments/assets/cd532058-da11-46a7-9276-57e8f626410f" />
+<img width="813" height="671" alt="image" src="https://github.com/user-attachments/assets/1e582527-ed66-4031-8604-eff1d6737653" />
 
 ---
 
 ## 🚀 Key Features
 
 ### 🔹 Digital I/O
-- SMD LEDs on pins **D0–D7**
-- Push buttons on pins **D2–D5**
+- SMD LEDs on pins **D2, D3, D6, D7, D8, D9**
+- Push buttons on pins **D2, D3, D6, D7**
 
 ### 🔹 Analog Inputs
-- **Two 100 kΩ trimmers** → A0, A1  
+- **Two 100 kΩ trimmers** on analog inputs **A0, A1**  
 
 ### 🔹 Serial Communication
 - **USB-to-Serial bridge** (CH340)  
-- Jumpers to route TX/RX to UNO hardware serial pins
 
 ### 🔹 CAN Bus
 - **CAN transceiver** (TJA1051T3)  
@@ -37,9 +36,6 @@ This shield integrates digital and analog I/O, SPI, I2C, sensors, memory, and di
 ### 🔹 I2C Thermometer
 - Integrated **TMP102 thermo**  
 
-### 🔹 PWM Audio
-- **Passive buzzer** driven via PWM  
-
 ### 🔹 SPI Memory
 - **25LC256 EEPROM** connected to hardware SPI  
 - Dedicated Chip Select line
@@ -51,8 +47,8 @@ This shield integrates digital and analog I/O, SPI, I2C, sensors, memory, and di
 ### Digital I/O
 | UNO Pin | Shield Function |
 |------------|-----------------|
-| D0–D7 | LED  |
-| D2–D5 | Buttons  |
+| D2, D3, D6, D7, D8, D9 | LED  |
+| D2, D3, D6, D7 | Buttons  |
 
 ### Analog
 | Pin | Function |
@@ -63,13 +59,14 @@ This shield integrates digital and analog I/O, SPI, I2C, sensors, memory, and di
 ### Peripherals
 | Function | Pin |
 |----------|-----|
-| PWM Buzzer | D3 |
 | SPI EEPROM | MOSI / MISO / SCK + CS |
 | I2C OLED | SDA / SCL |
 | I2C Thermo | SDA / SCL |
 | CAN | CAN_TX / CAN_RX |
 | RS485 | TX / RX |
 | USB-Serial | TX / RX |
+
+The Shield is compatible with both Arduino UNOs with 3V3 and 5V logic (some jumpers allow to adapt the voltage levels).
 
 ---
 
