@@ -4,7 +4,7 @@ Experimental shield for Arduino UNO form factor boards.
 Welcome to the official repository of the **UNO Experimental SHIELD**, an expansion board designed to provide a complete laboratory environment for experimenting, testing, and learning with the Arduino UNO Boards (e.g **UNO Q**).
 This shield integrates digital and analog I/O, SPI, I2C, sensors, memory, and diagnostics to create a versatile platform ideal for rapid prototyping, debugging, and education.
 
-<img width="813" height="671" alt="image" src="https://github.com/user-attachments/assets/1e582527-ed66-4031-8604-eff1d6737653" />
+<img width="869" height="688" alt="image" src="https://github.com/user-attachments/assets/804fbab6-fae5-49fe-ab55-bd0280554af7" />
 
 ---
 
@@ -12,7 +12,7 @@ This shield integrates digital and analog I/O, SPI, I2C, sensors, memory, and di
 
 ### 🔹 Digital I/O
 - SMD LEDs on pins **D2, D3, D6, D7, D8, D9**
-- Push buttons on pins **D2, D3, D6, D7**
+- Push buttons on pins **A2, A3**
 
 ### 🔹 Analog Inputs
 - **Two 100 kΩ trimmers** on analog inputs **A0, A1**  
@@ -40,6 +40,9 @@ This shield integrates digital and analog I/O, SPI, I2C, sensors, memory, and di
 - **25LC256 EEPROM** connected to hardware SPI  
 - Dedicated Chip Select line
 
+### 🔹 Crypto Chip
+- Integrated **ATECC608C**  - 
+
 ---
 
 ## 📐 Pinout Summary
@@ -48,7 +51,7 @@ This shield integrates digital and analog I/O, SPI, I2C, sensors, memory, and di
 | UNO Pin | Shield Function |
 |------------|-----------------|
 | D2, D3, D6, D7, D8, D9 | LED  |
-| D2, D3, D6, D7 | Buttons  |
+| A2, A3 | Buttons  |
 
 ### Analog
 | Pin | Function |
@@ -62,6 +65,7 @@ This shield integrates digital and analog I/O, SPI, I2C, sensors, memory, and di
 | SPI EEPROM | MOSI / MISO / SCK + CS |
 | I2C OLED | SDA / SCL |
 | I2C Thermo | SDA / SCL |
+| I2C Crypto Chip | SDA / SCL |
 | CAN | CAN_TX / CAN_RX |
 | RS485 | TX / RX |
 | USB-Serial | TX / RX |
