@@ -40,7 +40,7 @@ This shield integrates digital and analog I/O, SPI, I2C, sensors, memory, and di
 - **25LC256 EEPROM** connected to hardware SPI  
 - Dedicated Chip Select line
 
-### 🔹 Secure Element
+### 🔹 Crypto Chip
 - Integrated **ATECC608C**  - 
 
 ---
@@ -65,7 +65,7 @@ This shield integrates digital and analog I/O, SPI, I2C, sensors, memory, and di
 | SPI EEPROM | MOSI / MISO / SCK + CS |
 | I2C OLED | SDA / SCL |
 | I2C Thermo | SDA / SCL |
-| I2C SE | SDA / SCL |
+| I2C Crypto Chip | SDA / SCL |
 | CAN | CAN_TX / CAN_RX |
 | RS485 | TX / RX |
 | USB-Serial | TX / RX |
