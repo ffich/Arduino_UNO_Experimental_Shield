@@ -10112,7 +10112,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 44.45 46.99 0)
 			(effects
 				(font
@@ -10130,6 +10130,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 44.45 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 44.45 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C32713274"
 			(at 44.45 46.99 0)
 			(effects
 				(font
@@ -10388,7 +10406,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
 			(at 62.23 44.45 0)
 			(effects
 				(font
@@ -10406,6 +10424,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 62.23 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 62.23 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C57369"
 			(at 62.23 44.45 0)
 			(effects
 				(font
@@ -10541,7 +10577,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 44.45 72.39 0)
 			(effects
 				(font
@@ -10560,6 +10596,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 44.45 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 44.45 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C32713272"
 			(at 44.45 72.39 0)
 			(effects
 				(font
@@ -10621,7 +10675,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 62.23 74.93 0)
 			(effects
 				(font
@@ -10639,6 +10693,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 62.23 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 62.23 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C32713274"
 			(at 62.23 74.93 0)
 			(effects
 				(font
@@ -10763,7 +10835,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1.5k"
 			(at 48.895 128.2699 0)
 			(effects
 				(font
@@ -10798,7 +10870,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C140196"
+		(property "LCSC" "C25867"
 			(at 46.99 127 0)
 			(effects
 				(font
@@ -10914,7 +10986,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1.5k"
 			(at 97.155 128.2699 0)
 			(effects
 				(font
@@ -10949,7 +11021,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C140196"
+		(property "LCSC" "C25867"
 			(at 95.25 127 0)
 			(effects
 				(font
@@ -11576,6 +11648,15 @@
 		)
 		(property "LCSC" "C49257"
 			(at 306.07 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 306.07 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13187,7 +13268,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1.5k"
 			(at 81.915 128.2699 0)
 			(effects
 				(font
@@ -13222,7 +13303,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C140196"
+		(property "LCSC" "C25867"
 			(at 80.01 127 0)
 			(effects
 				(font
@@ -16323,7 +16404,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1.5k"
 			(at 65.405 128.2699 0)
 			(effects
 				(font
@@ -16358,7 +16439,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C140196"
+		(property "LCSC" "C25867"
 			(at 63.5 127 0)
 			(effects
 				(font
@@ -17146,7 +17227,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1.5k"
 			(at 32.385 128.2699 0)
 			(effects
 				(font
@@ -17181,7 +17262,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C140196"
+		(property "LCSC" "C25867"
 			(at 30.48 127 0)
 			(effects
 				(font
@@ -17448,7 +17529,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1.5k"
 			(at 113.665 128.2699 0)
 			(effects
 				(font
@@ -17483,7 +17564,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C140196"
+		(property "LCSC" "C25867"
 			(at 111.76 127 0)
 			(effects
 				(font
